@@ -1,6 +1,6 @@
 import express from 'express';
 const router = express.Router();
-import db from '../../app-db.js';
+import db from '../app-db.js';
 
 // Helper function to get order count by month and status
 const getOrderCountByMonthAndStatus = async (status) => {

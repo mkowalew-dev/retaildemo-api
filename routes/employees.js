@@ -1,6 +1,6 @@
 import express from 'express';
 const router = express.Router();
-import db from '../../app-db.js';
+import db from '../app-db.js';
 
 // Get total number of employees
 router.get('/employees/count', async (req, res) => {
